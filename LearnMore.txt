@@ -1,0 +1,11 @@
+Welcome User!!! I hope you find what you are looking for. 
+
+How our database works:
+1) Our database is saved in an excel file format for each user. 
+2) Each user can add there own filters to the databse as per needed
+3) Updating the database takes time (variable)
+4) The time is decided by the number of websites you select
+5) The most recent update of the database is mentioned in the bottom right of the website. 
+
+
+**Good Luck**
