@@ -1,0 +1,17 @@
+/* styles/styles.css */
+
+.collapsible-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    display: inline-block;
+}
+
+.collapsible-button:hover {
+    background-color: #0056b3;
+}
