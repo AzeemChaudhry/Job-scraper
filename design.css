@@ -1,17 +1,10 @@
-/* styles/styles.css */
-
-.collapsible-button {
-    background-color: #007BFF;
+div.st-emotion-cache-0.eqpbllx4 {
     color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
+    padding: 3px 8px;  /* Reduced padding for a smaller button */
+    border-radius: 3px;  /* Smaller border-radius for a more compact look */
     cursor: pointer;
-    font-size: 16px;
-    text-align: center;
+    font-size: 12px;  /* Smaller font size */
+    text-align: left;
     border: none;
     display: inline-block;
-}
-
-.collapsible-button:hover {
-    background-color: #0056b3;
 }

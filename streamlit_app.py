@@ -6,6 +6,8 @@ st.write(
 )
 file_url = "https://raw.githubusercontent.com/AzeemChaudhry/Job-scraper/main/LearnMore.txt" #file url to download 
 
+with open('design.css') as design:
+    st.markdown(f'<style>{design.read()}</style>',unsafe_allow_html= True)
 with st.expander("Click to learn more"): 
     LearnMore = df.download_file(file_url)
     if LearnMore:

@@ -1,11 +1,65 @@
-Welcome User!!! I hope you find what you are looking for. 
-
-How our database works:
-1) Our database is saved in an excel file format for each user. 
-2) Each user can add there own filters to the databse as per needed
-3) Updating the database takes time (variable)
-4) The time is decided by the number of websites you select
-5) The most recent update of the database is mentioned in the bottom right of the website. 
-
-
-**Good Luck**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #007BFF;
+            text-align: center;
+        }
+        p {
+            margin: 15px 0;
+        }
+        ul {
+            margin: 10px 0;
+            padding: 0;
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #ddd;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome User!!!</h1>
+        <p>I hope you find what you are looking for.</p>
+        <p>How our database works:</p>
+        <ul>
+            <li>Our database is saved in an Excel file format for each user.</li>
+            <li>Each user can add their own filters to the database as needed.</li>
+            <li>Updating the database takes time (variable).</li>
+            <li>The time is decided by the number of websites you select.</li>
+            <li>The most recent update of the database is mentioned in the bottom right of the website.</li>
+        </ul>
+        <p><strong>Good Luck</strong></p>
+    </div>
+    <div class="footer">
+        <p>Most recent update: <span id="update-time">[Update Time]</span></p>
+    </div>
+</body>
+</html>
