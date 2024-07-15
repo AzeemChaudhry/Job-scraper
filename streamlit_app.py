@@ -11,4 +11,4 @@ with open('design.css') as design:
 with st.expander("Click to learn more"): 
     LearnMore = df.download_file(file_url)
     if LearnMore:
-       st.write(LearnMore)
+       st.markdown(LearnMore,unsafe_allow_html=True)
